@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import Image from 'next/image'
 import { ArrowDown, Github, Linkedin, Mail, Download, ExternalLink } from 'lucide-react'
 
 export default function Hero() {
@@ -80,7 +81,7 @@ export default function Hero() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/25 text-indigo-400 text-xs font-medium mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse-slow" />
-              Staj Fırsatlarına Açık
+              Çalışmaya Açık · Hibrit / Uzaktan
             </div>
 
             {/* Name */}
@@ -161,11 +162,15 @@ export default function Hero() {
             <div className="w-52 h-52 sm:w-64 sm:h-64 rounded-full bg-gradient-to-br from-indigo-500/20 to-violet-600/20 absolute inset-0 blur-2xl" />
 
             {/* Avatar circle */}
-            <div className="relative w-52 h-52 sm:w-64 sm:h-64 rounded-full bg-gradient-to-br from-indigo-600 to-violet-700 flex items-center justify-center shadow-2xl shadow-indigo-900/50 ring-4 ring-indigo-500/20 animate-float">
-              {/* Initials */}
-              <span className="text-5xl sm:text-6xl font-black text-white tracking-tight select-none">
-                MEC
-              </span>
+            <div className="relative w-52 h-52 sm:w-64 sm:h-64 rounded-full overflow-hidden bg-gradient-to-br from-indigo-600 to-violet-700 shadow-2xl shadow-indigo-900/50 ring-4 ring-indigo-500/30 animate-float">
+              <Image
+                src="/profile.jpg"
+                alt="Murat Efe Çamoğlu"
+                fill
+                sizes="(min-width: 640px) 256px, 208px"
+                className="object-cover"
+                priority
+              />
             </div>
 
             {/* Floating mini badge – location */}

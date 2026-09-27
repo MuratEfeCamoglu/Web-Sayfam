@@ -78,8 +78,8 @@ const projects = [
     title: "Sağlıkla",
     emoji: "🏥",
     description:
-      "Diyabet ve çölyak hastaları için yapay zekâ destekli sağlık asistanı. OpenFoodFacts ile barkod tarama ve Gemini ile görsel besin analizi.",
-    tags: ["Flutter", "Firebase", "Gemini AI", "OpenFoodFacts"],
+      "Diyabet ve çölyak hastaları için yapay zekâ destekli sağlık asistanı. OpenFoodFacts ile barkod tarama ve Gemini ile görsel besin analizi. BanüJam 2 – AppJam Hackathon'unda 10Byte ekibiyle 48 saatte geliştirildi ve 2.lik ödülü aldı.",
+    tags: ["🥈 Hackathon 2.si", "Flutter", "Firebase", "Gemini AI"],
     github: "https://github.com/MuratEfeCamoglu/Saglikla-App",
     gradient: "from-rose-500/20 to-pink-600/10",
     borderColor: "hover:border-rose-500/40",

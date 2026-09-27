@@ -18,7 +18,24 @@ function useReveal() {
   }
 }
 
-const experienceData = [
+const experienceData: {
+  company: string
+  role: string
+  period: string
+  location?: string
+  description: string
+  tags: string[]
+  current: boolean
+}[] = [
+  {
+    company: 'Barok Savunma',
+    role: 'Stajyer',
+    period: 'Temmuz 2026',
+    description:
+      'Savunma sanayii alanında faaliyet gösteren Barok Savunma bünyesinde stajyer olarak çalışmaya başladım. Bu süreçte projelere katkı sunarak profesyonel deneyim kazanıyorum.',
+    tags: ['Savunma Sanayii', 'Staj'],
+    current: false,
+  },
   {
     company: 'Qua Granite',
     role: 'Bilgi Teknolojileri Stajyeri',
@@ -82,10 +99,12 @@ export default function Experience() {
                     <Calendar size={12} />
                     {item.period}
                   </span>
-                  <span className="flex items-center gap-1.5">
-                    <MapPin size={12} />
-                    {item.location}
-                  </span>
+                  {item.location && (
+                    <span className="flex items-center gap-1.5">
+                      <MapPin size={12} />
+                      {item.location}
+                    </span>
+                  )}
                 </div>
 
                 <p className="text-slate-400 text-sm leading-relaxed mb-4">{item.description}</p>
