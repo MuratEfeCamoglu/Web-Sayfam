@@ -22,10 +22,10 @@ const educationData = [
   {
     school: 'Balıkesir Üniversitesi',
     degree: 'Bilgisayar Mühendisliği',
-    period: '2023 – Devam Ediyor',
+    period: '2023 – 2027 (4. Sınıf)',
     location: 'Balıkesir',
     description:
-      'Yazılım geliştirme, nesne yönelimli programlama, veritabanı yönetimi ve sistem tasarımı konularında kapsamlı eğitim almaktayım. Mobil uygulama geliştirme alanında kişisel projeler yürütüyorum.',
+      'Yazılım geliştirme, nesne yönelimli programlama, veritabanı yönetimi ve sistem tasarımı konularında kapsamlı eğitim almaktayım. Şu anda son sınıftayım ve mobil uygulama geliştirme alanında kişisel projeler yürütüyorum.',
     current: true,
   },
   {

@@ -22,7 +22,7 @@ function useReveal() {
 const highlights = [
   { icon: GraduationCap, label: 'Üniversite', value: 'Balıkesir Üniversitesi' },
   { icon: Code, label: 'Bölüm', value: 'Bilgisayar Mühendisliği' },
-  { icon: User, label: 'Sınıf', value: '3. Sınıf' },
+  { icon: User, label: 'Sınıf', value: '4. Sınıf (Son Sınıf)' },
   { icon: MapPin, label: 'Konum', value: 'Aydın, Türkiye' },
 ]
 
@@ -61,7 +61,7 @@ export default function About() {
           >
             <p className="text-slate-300 leading-relaxed text-base">
               Merhaba! Ben <strong className="text-slate-100">Murat Efe Çamoğlu</strong>, Balıkesir
-              Üniversitesi Bilgisayar Mühendisliği bölümünde 3. sınıf öğrencisiyim. Yazılım
+              Üniversitesi Bilgisayar Mühendisliği bölümünde 4. sınıf (son sınıf) öğrencisiyim. Yazılım
               geliştirme konusunda kendimi sürekli geliştiren, yeni teknolojilere meraklı bir
               bireyim.
             </p>
@@ -76,7 +76,7 @@ export default function About() {
             <p className="text-slate-300 leading-relaxed text-base">
               Bunun yanı sıra nesne yönelimli programlama, ilişkisel veritabanı yönetimi ve
               arayüz tasarımı konularında güçlü bir teorik ve pratik alt yapıya sahibim.
-              Profesyonel geliştirici olma yolculuğuma kararlılıkla devam ediyorum.
+              Son sınıf öğrencisi olarak 2027 mezuniyetimin ardından mobil geliştirici olarak profesyonel kariyerime devam etmeyi hedefliyorum.
             </p>
 
             {/* Language tag */}
