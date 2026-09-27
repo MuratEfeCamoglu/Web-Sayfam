@@ -93,14 +93,15 @@ export default function Hero() {
             <p className="text-lg sm:text-xl text-slate-400 font-medium mb-6">
               Bilgisayar Mühendisliği Öğrencisi
               <span className="text-indigo-400 mx-2">|</span>
-              Mobil &amp; Web Geliştirici
+              Mobile Developer · Flutter &amp; Dart
             </p>
 
             {/* Short bio */}
             <p className="text-slate-400 leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8 text-base">
               Balıkesir Üniversitesi'nde 3. sınıf Bilgisayar Mühendisliği öğrencisiyim.
-              Flutter ile yüksek performanslı mobil uygulamalar geliştiriyor,
-              aynı zamanda web teknolojileri ve veritabanı alanlarında kendimi sürekli geliştiriyorum.
+              Flutter ve Dart ile Android, iOS ve web için mobil uygulamalar geliştiriyorum.
+              Provider ve BLoC ile state yönetimi; Firebase, Isar ve SQLite ile veri katmanı;
+              Bluetooth/BLE ve Gemini AI entegrasyonları üzerinde çalışıyorum.
             </p>
 
             {/* CTA buttons */}
@@ -136,7 +137,7 @@ export default function Hero() {
                 <Github size={18} />
               </a>
               <a
-                href="https://www.linkedin.com/in/murat-efe-çamoğlu"
+                href="https://www.linkedin.com/in/murat-efe-%C3%A7amo%C4%9Flu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center rounded-lg bg-white/5 hover:bg-indigo-500/20 border border-white/10 hover:border-indigo-500/40 text-slate-400 hover:text-indigo-400 transition-all duration-200"
@@ -176,7 +177,7 @@ export default function Hero() {
             {/* Floating mini badge – available */}
             <div className="absolute -top-3 -right-4 bg-[#13131f] border border-green-500/25 rounded-xl px-3 py-2 flex items-center gap-2 shadow-lg">
               <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse-slow" />
-              <span className="text-xs font-medium text-slate-300">2025 Staj</span>
+              <span className="text-xs font-medium text-slate-300">Flutter &amp; Dart</span>
             </div>
           </div>
         </div>

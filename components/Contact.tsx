@@ -36,8 +36,8 @@ const socialLinks = [
   {
     icon: Globe,
     label: 'Web Sitesi',
-    value: 'muratefe.dev',
-    href: '#',
+    value: 'muratefecamoglu.vercel.app',
+    href: 'https://muratefecamoglu.vercel.app/',
     color: 'hover:text-indigo-400 hover:border-indigo-400/40',
   },
 ]

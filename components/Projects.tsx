@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
-import { Github, ExternalLink, Smartphone } from 'lucide-react'
+import { Github, ExternalLink, Smartphone, Globe } from 'lucide-react'
 
 function useReveal() {
   const refs = useRef<HTMLElement[]>([])
@@ -20,48 +20,143 @@ function useReveal() {
 
 const projects = [
   {
-    title: 'Sağlıkla',
-    emoji: '🏥',
+    title: "Uyku — SleepApp",
+    emoji: "😴",
     description:
-      'Tip 1 & Tip 2 diyabet ve çölyak hastalarının günlük yaşamını kolaylaştırmak amacıyla geliştirilen yapay zeka destekli kapsamlı bir sağlık yönetim uygulaması.',
-    tags: ['Flutter', 'Dart', 'Yapay Zeka', 'Sağlık'],
-    github: 'https://github.com/MuratEfeCamoglu/Saglikla-App',
-    gradient: 'from-rose-500/20 to-pink-600/10',
-    borderColor: 'hover:border-rose-500/40',
-    tagColor: 'bg-rose-500/10 border-rose-500/20 text-rose-300',
+      "Uyku süresi, tahmini uyku evreleri ve kalite takibi yapan; akşam rutini, akıllı alarm penceresi ve haftalık rapor sunan, verileri yalnızca cihazda tutan reklamsız uyku takipçisi.",
+    tags: ["Flutter", "Dart", "go_router", "Offline"],
+    github: "https://github.com/MuratEfeCamoglu/SleepApp",
+    gradient: "from-amber-500/20 to-orange-600/10",
+    borderColor: "hover:border-amber-500/40",
+    tagColor: "bg-amber-500/10 border-amber-500/20 text-amber-300",
   },
   {
-    title: 'Harcama Takipçisi',
-    emoji: '💰',
+    title: "Limon & Zeytin — RestaurantApp",
+    emoji: "🍋",
     description:
-      'Günlük harcamalarınızı kategorilere göre takip etmenizi ve bütçenizi kolayca yönetmenizi sağlayan kişisel finans uygulaması.',
-    tags: ['Flutter', 'Dart', 'SQLite'],
-    github: 'https://github.com/MuratEfeCamoglu/Expense-Tracker',
-    gradient: 'from-emerald-500/20 to-green-600/10',
-    borderColor: 'hover:border-emerald-500/40',
-    tagColor: 'bg-emerald-500/10 border-emerald-500/20 text-emerald-300',
+      "Restoran salonundaki masa → mutfak → hesap → ödeme döngüsünü yöneten adisyon uygulaması ve REST API’si. Garson ve mutfak ekranları anlık senkronize çalışır.",
+    tags: ["Flutter", "Dart (shelf)", "REST API", "SQLite"],
+    github: "https://github.com/MuratEfeCamoglu/RestaurantApp",
+    gradient: "from-lime-500/20 to-green-600/10",
+    borderColor: "hover:border-lime-500/40",
+    tagColor: "bg-lime-500/10 border-lime-500/20 text-lime-300",
   },
   {
-    title: 'Alışveriş Uygulaması',
-    emoji: '🛍️',
+    title: "Cepte Staj",
+    emoji: "📓",
     description:
-      'Kullanıcıların ürünleri arayıp online olarak satın alabildiği, modern ve kullanıcı dostu arayüze sahip bir mobil alışveriş platformu.',
-    tags: ['Flutter', 'Dart', 'REST API'],
-    github: 'https://github.com/MuratEfeCamoglu/Shoping_app',
-    gradient: 'from-sky-500/20 to-cyan-600/10',
-    borderColor: 'hover:border-sky-500/40',
-    tagColor: 'bg-sky-500/10 border-sky-500/20 text-sky-300',
+      "Stajyerler için offline-first staj defteri. Resmi defter için PDF çıktısı, kağıda geçirme modu ve PDF’e asla girmeyen kişisel staj günlüğü.",
+    tags: ["Flutter", "Dart", "PDF", "Offline-first"],
+    github: "https://github.com/MuratEfeCamoglu/CepteStaj",
+    gradient: "from-indigo-500/20 to-blue-600/10",
+    borderColor: "hover:border-indigo-500/40",
+    tagColor: "bg-indigo-500/10 border-indigo-500/20 text-indigo-300",
   },
   {
-    title: 'Sosyal Medya Uygulaması',
-    emoji: '💬',
+    title: "Serial Bluetooth Terminal",
+    emoji: "📡",
     description:
-      'Kullanıcıların içerik paylaşabildiği, birbirleriyle etkileşime girebildiği ve topluluk oluşturabildiği dijital bir sosyal platform.',
-    tags: ['Flutter', 'Dart', 'Firebase'],
-    github: 'https://github.com/MuratEfeCamoglu/socialmedia_app',
-    gradient: 'from-violet-500/20 to-purple-600/10',
-    borderColor: 'hover:border-violet-500/40',
-    tagColor: 'bg-violet-500/10 border-violet-500/20 text-violet-300',
+      "Arduino, ESP32 gibi kartlarla Bluetooth Classic ve BLE üzerinden seri haberleşme terminali. Makro butonları, HEX giriş ve sürükle-bırak sanal kumanda.",
+    tags: ["Flutter", "Bluetooth Classic", "BLE", "Android"],
+    github: "https://github.com/MuratEfeCamoglu/Serial_Bluetooth_Terminal",
+    gradient: "from-cyan-500/20 to-teal-600/10",
+    borderColor: "hover:border-cyan-500/40",
+    tagColor: "bg-cyan-500/10 border-cyan-500/20 text-cyan-300",
+  },
+  {
+    title: "Arda Tedarik — E-commerce App",
+    emoji: "🛒",
+    description:
+      "Savunma elektroniği bileşen tedariki için B2B e-ticaret uygulaması: kategori/tedarikçi bazlı katalog, sepet, favoriler, 3 adımlı ödeme ve sipariş geçmişi.",
+    tags: ["Flutter", "Provider", "B2B", "Açık/Koyu Tema"],
+    github: "https://github.com/MuratEfeCamoglu/E-commerce-App",
+    gradient: "from-violet-500/20 to-purple-600/10",
+    borderColor: "hover:border-violet-500/40",
+    tagColor: "bg-violet-500/10 border-violet-500/20 text-violet-300",
+  },
+  {
+    title: "Sağlıkla",
+    emoji: "🏥",
+    description:
+      "Diyabet ve çölyak hastaları için yapay zekâ destekli sağlık asistanı. OpenFoodFacts ile barkod tarama ve Gemini ile görsel besin analizi.",
+    tags: ["Flutter", "Firebase", "Gemini AI", "OpenFoodFacts"],
+    github: "https://github.com/MuratEfeCamoglu/Saglikla-App",
+    gradient: "from-rose-500/20 to-pink-600/10",
+    borderColor: "hover:border-rose-500/40",
+    tagColor: "bg-rose-500/10 border-rose-500/20 text-rose-300",
+  },
+  {
+    title: "Skycast Weather",
+    emoji: "☁️",
+    description:
+      "Anlık, saatlik ve 7 günlük tahmin; sıcaklık grafiği, çoklu konum yönetimi ve harita desteğine sahip hava durumu uygulaması.",
+    tags: ["Flutter", "OpenWeatherMap", "fl_chart", "flutter_animate"],
+    github: "https://github.com/MuratEfeCamoglu/Skycast-App",
+    gradient: "from-sky-500/20 to-cyan-600/10",
+    borderColor: "hover:border-sky-500/40",
+    tagColor: "bg-sky-500/10 border-sky-500/20 text-sky-300",
+  },
+  {
+    title: "FamilyTrackApp",
+    emoji: "🏠",
+    description:
+      "Sevdiklerinizle özel günleri ve anıları takip eden, çevrimdışı çalışan hafıza defteri. BLoC ve temiz mimari ile geliştirildi.",
+    tags: ["Flutter", "Firebase Auth", "Firestore", "BLoC"],
+    github: "https://github.com/MuratEfeCamoglu/FamilyTrackApp",
+    gradient: "from-fuchsia-500/20 to-pink-600/10",
+    borderColor: "hover:border-fuchsia-500/40",
+    tagColor: "bg-fuchsia-500/10 border-fuchsia-500/20 text-fuchsia-300",
+  },
+  {
+    title: "Expense Tracker",
+    emoji: "📊",
+    description:
+      "Harcama ekleme/düzenleme, kategorilendirme ve aylık grafiksel analiz sunan bütçe yönetim uygulaması.",
+    tags: ["Flutter", "Isar", "Provider", "fl_chart"],
+    github: "https://github.com/MuratEfeCamoglu/Expense-Tracker",
+    gradient: "from-emerald-500/20 to-green-600/10",
+    borderColor: "hover:border-emerald-500/40",
+    tagColor: "bg-emerald-500/10 border-emerald-500/20 text-emerald-300",
+  },
+]
+
+// Smaller projects shown as a compact list under the main grid
+const otherProjects = [
+  {
+    emoji: "🏺",
+    title: "SavingsJarApp",
+    description: "Hedef odaklı sanal \"kavanozlar\" ile birikim takibi",
+    tech: "Flutter, Firebase, Google ile giriş",
+    github: "https://github.com/MuratEfeCamoglu/SavingsJarApp",
+  },
+  {
+    emoji: "📝",
+    title: "ToDo App",
+    description: "Kategori ve takvim görünümlü yapılacaklar listesi",
+    tech: "Flutter",
+    github: "https://github.com/MuratEfeCamoglu/ToDo-App",
+  },
+  {
+    emoji: "🛍️",
+    title: "Shopping App",
+    description: "Provider mimarisiyle ürün listeleme ve sepet yönetimi",
+    tech: "Flutter, Provider",
+    github: "https://github.com/MuratEfeCamoglu/Shoping_app",
+  },
+  {
+    emoji: "🚗",
+    title: "Tolga Oto Boya",
+    description: "Bir oto boya atölyesi için tek sayfalık kurumsal web sitesi",
+    tech: "HTML, CSS, JavaScript",
+    github: "https://github.com/MuratEfeCamoglu/TolgaOtoBoya-Website",
+    live: "https://tolga-oto-boya-website.vercel.app",
+  },
+  {
+    emoji: "🌐",
+    title: "Web-Sayfam",
+    description: "Bu portfolyo sitesi",
+    tech: "Next.js 14, Tailwind CSS, TypeScript",
+    github: "https://github.com/MuratEfeCamoglu/Web-Sayfam",
   },
 ]
 
@@ -85,17 +180,17 @@ export default function Projects() {
             Projeler
           </h2>
           <p className="text-slate-400 text-base mt-6 max-w-xl">
-            Flutter ile geliştirdiğim, gerçek dünya problemlerini çözmeyi hedefleyen uygulamalar.
+            Flutter ve Dart ile geliştirdiğim, gerçek dünya problemlerini çözmeyi hedefleyen uygulamalar.
           </p>
         </div>
 
         {/* Projects grid */}
-        <div className="grid sm:grid-cols-2 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, i) => (
             <article
               key={project.title}
               ref={addRef as (el: HTMLElement | null) => void}
-              className={`reveal reveal-delay-${Math.min(i + 1, 4)} relative card overflow-hidden group p-6 ${project.borderColor}`}
+              className={`reveal reveal-delay-${(i % 3) + 1} relative card overflow-hidden group p-6 ${project.borderColor}`}
             >
               {/* Gradient overlay */}
               <div
@@ -152,6 +247,53 @@ export default function Projects() {
               </div>
             </article>
           ))}
+        </div>
+
+        {/* Other projects */}
+        <div
+          ref={addRef as (el: HTMLDivElement | null) => void}
+          className="reveal mt-14"
+        >
+          <h3 className="text-slate-200 font-bold text-lg mb-5">Diğer Projeler</h3>
+          <ul className="grid sm:grid-cols-2 gap-3">
+            {otherProjects.map((project) => (
+              <li
+                key={project.title}
+                className="card p-4 flex items-start gap-3"
+              >
+                <span className="text-xl leading-none mt-0.5" role="img" aria-label={project.title}>
+                  {project.emoji}
+                </span>
+                <div className="flex-1 min-w-0">
+                  <p className="text-slate-200 font-semibold text-sm">{project.title}</p>
+                  <p className="text-slate-400 text-xs leading-relaxed mt-1">{project.description}</p>
+                  <p className="text-slate-500 text-xs mt-1.5">{project.tech}</p>
+                </div>
+                <div className="flex gap-1.5 flex-shrink-0">
+                  {'live' in project && (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-8 h-8 flex items-center justify-center rounded-lg bg-white/5 hover:bg-white/10 text-slate-400 hover:text-slate-200 transition-all border border-white/10 hover:border-white/20"
+                      aria-label={`${project.title} canlı site`}
+                    >
+                      <Globe size={15} />
+                    </a>
+                  )}
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-8 h-8 flex items-center justify-center rounded-lg bg-white/5 hover:bg-white/10 text-slate-400 hover:text-slate-200 transition-all border border-white/10 hover:border-white/20"
+                    aria-label={`${project.title} GitHub deposu`}
+                  >
+                    <Github size={15} />
+                  </a>
+                </div>
+              </li>
+            ))}
+          </ul>
         </div>
 
         {/* GitHub CTA */}

@@ -23,31 +23,31 @@ const skillGroups = [
     category: 'Programlama Dilleri',
     emoji: '💻',
     color: 'indigo',
-    skills: ['Python', 'Dart', 'JavaScript', 'C#', 'Java'],
+    skills: ['Dart', 'Python', 'TypeScript', 'JavaScript', 'C++', 'C#', 'Java'],
   },
   {
     category: 'Mobil Geliştirme',
     emoji: '📱',
     color: 'violet',
-    skills: ['Flutter', 'Dart', 'Temel Mobil Uygulama Mimarisi', 'UI/UX İlkeleri'],
+    skills: ['Flutter', 'Android', 'Provider', 'BLoC / Cubit', 'go_router', 'Offline-first Mimari', 'UI/UX İlkeleri'],
   },
   {
     category: 'Web Teknolojileri',
     emoji: '🌐',
     color: 'sky',
-    skills: ['HTML', 'CSS', 'JavaScript', 'Web Tabanlı Uygulama Geliştirme'],
+    skills: ['Next.js', 'Tailwind CSS', 'HTML', 'CSS', 'JavaScript', 'REST API (Dart shelf)'],
   },
   {
-    category: 'Veritabanı',
+    category: 'Veri & Backend',
     emoji: '🗄️',
     color: 'emerald',
-    skills: ['SQLite3', 'İlişkisel Veritabanı', 'Veritabanı Tasarımı'],
+    skills: ['Firebase (Auth, Firestore, Storage)', 'Isar', 'SQLite', 'İlişkisel Veritabanı', 'Veritabanı Tasarımı'],
   },
   {
-    category: 'Araçlar & Kavramlar',
+    category: 'Entegrasyonlar & Araçlar',
     emoji: '🔧',
     color: 'amber',
-    skills: ['Git & GitHub', 'Nesne Yönelimli Programlama', 'Qt Designer', 'C# Forms', 'Versiyon Kontrolü'],
+    skills: ['Google Gemini AI', 'Bluetooth Classic & BLE', 'OpenWeatherMap / OpenFoodFacts', 'Git & GitHub', 'Nesne Yönelimli Programlama', 'Qt Designer (PyQt)', 'C# Forms'],
   },
 ]
 

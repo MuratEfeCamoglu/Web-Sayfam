@@ -11,13 +11,15 @@ const inter = Inter({
 
 // SEO Metadata
 export const metadata: Metadata = {
-  title: 'Murat Efe Çamoğlu | Yazılım Geliştirici',
+  title: 'Murat Efe Çamoğlu | Mobile Developer · Flutter & Dart',
   description:
-    'Murat Efe Çamoğlu – Balıkesir Üniversitesi Bilgisayar Mühendisliği öğrencisi. Flutter, mobil uygulama geliştirme ve web teknolojileri alanında çalışmalar.',
+    'Murat Efe Çamoğlu – Balıkesir Üniversitesi Bilgisayar Mühendisliği öğrencisi ve Flutter & Dart mobil geliştirici. Firebase, Isar, SQLite, Bluetooth/BLE ve Gemini AI ile uygulamalar.',
   keywords: [
     'Murat Efe Çamoğlu',
     'yazılım geliştirici',
     'Flutter',
+    'Dart',
+    'Firebase',
     'mobil uygulama',
     'Balıkesir Üniversitesi',
     'bilgisayar mühendisliği',
@@ -28,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'tr_TR',
-    title: 'Murat Efe Çamoğlu | Yazılım Geliştirici',
+    title: 'Murat Efe Çamoğlu | Mobile Developer · Flutter & Dart',
     description:
       'Flutter ve modern teknolojilerle kullanıcı dostu, yüksek performanslı uygulamalar geliştiren yazılım geliştiricisi.',
     siteName: 'Murat Efe Çamoğlu Portfolio',

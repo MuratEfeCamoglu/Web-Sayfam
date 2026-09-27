@@ -67,8 +67,11 @@ export default function About() {
             </p>
             <p className="text-slate-300 leading-relaxed text-base">
               Birincil uzmanlık alanım <span className="text-indigo-400 font-semibold">Flutter / Dart</span>{' '}
-              ile mobil uygulama geliştirmedir. Kullanıcı deneyimini ön plana alan, temiz mimariyle
-              inşa edilmiş, yüksek performanslı uygulamalar geliştiriyorum.
+              ile mobil uygulama geliştirmedir. Uyku takibinden restoran adisyon sistemine, staj
+              defterinden Bluetooth seri terminaline kadar gerçek ihtiyaçlara yönelik uygulamalar
+              geliştiriyorum. Provider ve BLoC ile state yönetimi, Firebase, Isar ve SQLite ile veri
+              katmanı; Bluetooth/BLE ile donanım haberleşmesi ve Gemini AI gibi servis
+              entegrasyonları ilgi alanlarım arasında.
             </p>
             <p className="text-slate-300 leading-relaxed text-base">
               Bunun yanı sıra nesne yönelimli programlama, ilişkisel veritabanı yönetimi ve
