@@ -55,11 +55,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr" className={inter.variable}>
-      <head>
-        {/* Favicon placeholder */}
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-      </head>
       <body className="min-h-screen bg-[#0a0a0f] text-slate-100 font-sans antialiased">
         {children}
       </body>
