@@ -20,17 +20,6 @@ function useReveal() {
 
 const projects = [
   {
-    title: "Uyku — SleepApp",
-    emoji: "😴",
-    description:
-      "Uyku süresi, tahmini uyku evreleri ve kalite takibi yapan; akşam rutini, akıllı alarm penceresi ve haftalık rapor sunan, verileri yalnızca cihazda tutan reklamsız uyku takipçisi.",
-    tags: ["Flutter", "Dart", "go_router", "Offline"],
-    github: "https://github.com/MuratEfeCamoglu/SleepApp",
-    gradient: "from-amber-500/20 to-orange-600/10",
-    borderColor: "hover:border-amber-500/40",
-    tagColor: "bg-amber-500/10 border-amber-500/20 text-amber-300",
-  },
-  {
     title: "Limon & Zeytin — RestaurantApp",
     emoji: "🍋",
     description:
@@ -40,39 +29,6 @@ const projects = [
     gradient: "from-lime-500/20 to-green-600/10",
     borderColor: "hover:border-lime-500/40",
     tagColor: "bg-lime-500/10 border-lime-500/20 text-lime-300",
-  },
-  {
-    title: "Cepte Staj",
-    emoji: "📓",
-    description:
-      "Stajyerler için offline-first staj defteri. Resmi defter için PDF çıktısı, kağıda geçirme modu ve PDF’e asla girmeyen kişisel staj günlüğü.",
-    tags: ["Flutter", "Dart", "PDF", "Offline-first"],
-    github: "https://github.com/MuratEfeCamoglu/CepteStaj",
-    gradient: "from-indigo-500/20 to-blue-600/10",
-    borderColor: "hover:border-indigo-500/40",
-    tagColor: "bg-indigo-500/10 border-indigo-500/20 text-indigo-300",
-  },
-  {
-    title: "Serial Bluetooth Terminal",
-    emoji: "📡",
-    description:
-      "Arduino, ESP32 gibi kartlarla Bluetooth Classic ve BLE üzerinden seri haberleşme terminali. Makro butonları, HEX giriş ve sürükle-bırak sanal kumanda.",
-    tags: ["Flutter", "Bluetooth Classic", "BLE", "Android"],
-    github: "https://github.com/MuratEfeCamoglu/Serial_Bluetooth_Terminal",
-    gradient: "from-cyan-500/20 to-teal-600/10",
-    borderColor: "hover:border-cyan-500/40",
-    tagColor: "bg-cyan-500/10 border-cyan-500/20 text-cyan-300",
-  },
-  {
-    title: "Arda Tedarik — E-commerce App",
-    emoji: "🛒",
-    description:
-      "Savunma elektroniği bileşen tedariki için B2B e-ticaret uygulaması: kategori/tedarikçi bazlı katalog, sepet, favoriler, 3 adımlı ödeme ve sipariş geçmişi.",
-    tags: ["Flutter", "Provider", "B2B", "Açık/Koyu Tema"],
-    github: "https://github.com/MuratEfeCamoglu/E-commerce-App",
-    gradient: "from-violet-500/20 to-purple-600/10",
-    borderColor: "hover:border-violet-500/40",
-    tagColor: "bg-violet-500/10 border-violet-500/20 text-violet-300",
   },
   {
     title: "Sağlıkla",
@@ -86,15 +42,48 @@ const projects = [
     tagColor: "bg-rose-500/10 border-rose-500/20 text-rose-300",
   },
   {
-    title: "Skycast Weather",
-    emoji: "☁️",
+    title: "Serial Bluetooth Terminal",
+    emoji: "📡",
     description:
-      "Anlık, saatlik ve 7 günlük tahmin; sıcaklık grafiği, çoklu konum yönetimi ve harita desteğine sahip hava durumu uygulaması.",
-    tags: ["Flutter", "OpenWeatherMap", "fl_chart", "flutter_animate"],
-    github: "https://github.com/MuratEfeCamoglu/Skycast-App",
-    gradient: "from-sky-500/20 to-cyan-600/10",
-    borderColor: "hover:border-sky-500/40",
-    tagColor: "bg-sky-500/10 border-sky-500/20 text-sky-300",
+      "Arduino, ESP32 gibi kartlarla Bluetooth Classic ve BLE üzerinden seri haberleşme terminali. Makro butonları, HEX giriş ve sürükle-bırak sanal kumanda.",
+    tags: ["Flutter", "Bluetooth Classic", "BLE", "Android"],
+    github: "https://github.com/MuratEfeCamoglu/Serial_Bluetooth_Terminal",
+    gradient: "from-cyan-500/20 to-teal-600/10",
+    borderColor: "hover:border-cyan-500/40",
+    tagColor: "bg-cyan-500/10 border-cyan-500/20 text-cyan-300",
+  },
+  {
+    title: "Cepte Staj",
+    emoji: "📓",
+    description:
+      "Stajyerler için offline-first staj defteri. Resmi defter için PDF çıktısı, kağıda geçirme modu ve PDF’e asla girmeyen kişisel staj günlüğü.",
+    tags: ["Flutter", "Dart", "PDF", "Offline-first"],
+    github: "https://github.com/MuratEfeCamoglu/CepteStaj",
+    gradient: "from-indigo-500/20 to-blue-600/10",
+    borderColor: "hover:border-indigo-500/40",
+    tagColor: "bg-indigo-500/10 border-indigo-500/20 text-indigo-300",
+  },
+  {
+    title: "Uyku — SleepApp",
+    emoji: "😴",
+    description:
+      "Uyku süresi, tahmini uyku evreleri ve kalite takibi yapan; akşam rutini, akıllı alarm penceresi ve haftalık rapor sunan, verileri yalnızca cihazda tutan reklamsız uyku takipçisi.",
+    tags: ["Flutter", "Dart", "go_router", "Offline"],
+    github: "https://github.com/MuratEfeCamoglu/SleepApp",
+    gradient: "from-amber-500/20 to-orange-600/10",
+    borderColor: "hover:border-amber-500/40",
+    tagColor: "bg-amber-500/10 border-amber-500/20 text-amber-300",
+  },
+  {
+    title: "Arda Tedarik — E-commerce App",
+    emoji: "🛒",
+    description:
+      "Savunma elektroniği bileşen tedariki için B2B e-ticaret uygulaması: kategori/tedarikçi bazlı katalog, sepet, favoriler, 3 adımlı ödeme ve sipariş geçmişi.",
+    tags: ["Flutter", "Provider", "B2B", "Açık/Koyu Tema"],
+    github: "https://github.com/MuratEfeCamoglu/E-commerce-App",
+    gradient: "from-violet-500/20 to-purple-600/10",
+    borderColor: "hover:border-violet-500/40",
+    tagColor: "bg-violet-500/10 border-violet-500/20 text-violet-300",
   },
   {
     title: "FamilyTrackApp",
@@ -106,6 +95,17 @@ const projects = [
     gradient: "from-fuchsia-500/20 to-pink-600/10",
     borderColor: "hover:border-fuchsia-500/40",
     tagColor: "bg-fuchsia-500/10 border-fuchsia-500/20 text-fuchsia-300",
+  },
+  {
+    title: "Skycast Weather",
+    emoji: "☁️",
+    description:
+      "Anlık, saatlik ve 7 günlük tahmin; sıcaklık grafiği, çoklu konum yönetimi ve harita desteğine sahip hava durumu uygulaması.",
+    tags: ["Flutter", "OpenWeatherMap", "fl_chart", "flutter_animate"],
+    github: "https://github.com/MuratEfeCamoglu/Skycast-App",
+    gradient: "from-sky-500/20 to-cyan-600/10",
+    borderColor: "hover:border-sky-500/40",
+    tagColor: "bg-sky-500/10 border-sky-500/20 text-sky-300",
   },
   {
     title: "Expense Tracker",
@@ -122,6 +122,13 @@ const projects = [
 
 // Smaller projects shown as a compact list under the main grid
 const otherProjects = [
+  {
+    emoji: "🥗",
+    title: "Denge — EatWellApp",
+    description: "Türk mutfağını tanıyan kalori ve beslenme takibi",
+    tech: "Flutter, Provider, Google ML Kit",
+    github: "https://github.com/MuratEfeCamoglu/EatWellApp",
+  },
   {
     emoji: "🏺",
     title: "SavingsJarApp",
@@ -142,6 +149,13 @@ const otherProjects = [
     description: "Provider mimarisiyle ürün listeleme ve sepet yönetimi",
     tech: "Flutter, Provider",
     github: "https://github.com/MuratEfeCamoglu/Shoping_app",
+  },
+  {
+    emoji: "🏀",
+    title: "NBA Sezon Öncesi Tahmin",
+    description: "2026-27 NBA sezonu için sıralama ve Alt/Üst tahmin oyunu",
+    tech: "Next.js 16, React 19, TypeScript",
+    github: "https://github.com/MuratEfeCamoglu/NbaWebsite",
   },
   {
     emoji: "🚗",

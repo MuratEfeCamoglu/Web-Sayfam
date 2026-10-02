@@ -81,7 +81,7 @@ export default function Hero() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/25 text-indigo-400 text-xs font-medium mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse-slow" />
-              Çalışmaya Açık · Hibrit / Uzaktan
+              Çalışmaya Açık · İş Yerinde / Hibrit / Uzaktan
             </div>
 
             {/* Name */}

@@ -35,7 +35,7 @@ const skillGroups = [
     category: 'Web Teknolojileri',
     emoji: '🌐',
     color: 'sky',
-    skills: ['Next.js', 'Tailwind CSS', 'HTML', 'CSS', 'JavaScript', 'REST API (Dart shelf)'],
+    skills: ['Next.js', 'React', 'Tailwind CSS', 'HTML', 'CSS', 'JavaScript', 'REST API (Dart shelf)', 'Vitest & Playwright'],
   },
   {
     category: 'Veri & Backend',
@@ -47,7 +47,7 @@ const skillGroups = [
     category: 'Entegrasyonlar & Araçlar',
     emoji: '🔧',
     color: 'amber',
-    skills: ['Google Gemini AI', 'Bluetooth Classic & BLE', 'OpenWeatherMap / OpenFoodFacts', 'Git & GitHub', 'Nesne Yönelimli Programlama', 'Qt Designer (PyQt)', 'C# Forms'],
+    skills: ['Google Gemini AI', 'Google ML Kit', 'Bluetooth Classic & BLE', 'OpenWeatherMap / OpenFoodFacts', 'Git & GitHub', 'Nesne Yönelimli Programlama', 'Qt Designer (PyQt)', 'C# Forms'],
   },
 ]
 

@@ -29,18 +29,19 @@ const experienceData: {
 }[] = [
   {
     company: 'Barok Savunma',
-    role: 'Stajyer',
-    period: 'Temmuz 2026',
+    role: 'Bilgisayar Mühendisi Stajyeri',
+    period: 'Temmuz 2026 – Ağustos 2026',
+    location: 'İzmir',
     description:
-      'Savunma sanayii alanında faaliyet gösteren Barok Savunma bünyesinde stajyer olarak çalışmaya başladım. Bu süreçte projelere katkı sunarak profesyonel deneyim kazanıyorum.',
-    tags: ['Savunma Sanayii', 'Staj'],
+      'Savunma sanayii alanında faaliyet gösteren Barok Savunma bünyesinde bilgisayar mühendisi stajyeri olarak çalıştım. Projelere katkı sunarak savunma sektöründe profesyonel iş ortamında deneyim kazandım.',
+    tags: ['Savunma Sanayii', 'Programlama Dilleri', 'Mühendislik'],
     current: false,
   },
   {
     company: 'Qua Granite',
-    role: 'Bilgi Teknolojileri Stajyeri',
+    role: 'Bilgisayar Mühendisi Stajyeri · Bilgi İşlem',
     period: 'Temmuz 2025 – Ağustos 2025',
-    location: 'Aydın',
+    location: 'Söke, Aydın',
     description:
       'Şirketin bilgi teknolojileri departmanında staj yaparak kurumsal yazılım süreçleri, iç sistemler ve teknik destek süreçleri hakkında deneyim kazandım. Yazılım geliştirme ve sistem yönetimi konularında profesyonel iş ortamında çalışma fırsatı yakaladım.',
     tags: ['Kurumsal Yazılım', 'BT Desteği', 'Yazılım Süreçleri'],
