@@ -101,7 +101,7 @@ export default function Hero() {
             <p className="text-slate-400 leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8 text-base">
               Balıkesir Üniversitesi'nde 4. sınıf (son sınıf) Bilgisayar Mühendisliği öğrencisiyim.
               Flutter ve Dart ile Android, iOS ve web için mobil uygulamalar geliştiriyorum.
-              Provider ve BLoC ile state yönetimi; Firebase, Isar ve SQLite ile veri katmanı;
+              Provider ve BLoC ile state yönetimi; Firebase ve SQLite ile veri katmanı;
               Bluetooth/BLE ve Gemini AI entegrasyonları üzerinde çalışıyorum.
             </p>
 

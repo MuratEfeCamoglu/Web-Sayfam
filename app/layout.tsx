@@ -13,7 +13,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Murat Efe Çamoğlu | Mobile Developer · Flutter & Dart',
   description:
-    'Murat Efe Çamoğlu – Balıkesir Üniversitesi Bilgisayar Mühendisliği öğrencisi ve Flutter & Dart mobil geliştirici. Firebase, Isar, SQLite, Bluetooth/BLE ve Gemini AI ile uygulamalar.',
+    'Murat Efe Çamoğlu – Balıkesir Üniversitesi Bilgisayar Mühendisliği öğrencisi ve Flutter & Dart mobil geliştirici. Firebase, SQLite, Bluetooth/BLE ve Gemini AI ile uygulamalar.',
   keywords: [
     'Murat Efe Çamoğlu',
     'yazılım geliştirici',

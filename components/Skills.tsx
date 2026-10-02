@@ -41,7 +41,7 @@ const skillGroups = [
     category: 'Veri & Backend',
     emoji: '🗄️',
     color: 'emerald',
-    skills: ['Firebase (Auth, Firestore, Storage)', 'Isar', 'SQLite', 'İlişkisel Veritabanı', 'Veritabanı Tasarımı'],
+    skills: ['Firebase (Auth, Firestore, Storage)', 'SQLite', 'İlişkisel Veritabanı', 'Veritabanı Tasarımı'],
   },
   {
     category: 'Entegrasyonlar & Araçlar',
